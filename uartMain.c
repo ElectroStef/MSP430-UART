@@ -1,9 +1,12 @@
 //proper dumpster fire of a script
 
 #include "msp430.h"
+#include "ringBuffer.h"
 
 const char RXData[] = {"guy\r\n"};
 unsigned int i; // this is my counter
+
+
 
 void initUART()
 {
